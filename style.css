@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(202, 223, 229);
+}
+
+main{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+p{
+    border-radius: 1rem;
+    padding: 1rem 1.5rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    background-color: rgb(95, 234, 95);
+}
+.btn{
+    outline: none;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    transition: background 0.7s;
+}
+.btn:hover{
+    background-color: rgb(95, 234, 95);
+}
